@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Team8_22-23_Webpage/static/css/main.810c4a50.css",
+    "main.js": "/Team8_22-23_Webpage/static/js/main.884d4ef0.js",
+    "index.html": "/Team8_22-23_Webpage/index.html",
+    "main.810c4a50.css.map": "/Team8_22-23_Webpage/static/css/main.810c4a50.css.map",
+    "main.884d4ef0.js.map": "/Team8_22-23_Webpage/static/js/main.884d4ef0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.810c4a50.css",
+    "static/js/main.884d4ef0.js"
+  ]
+}
