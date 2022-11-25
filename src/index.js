@@ -9,6 +9,7 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 import Schedule from './schedule';
 import Progress from './progress';
 import Raports from './raports';
+import Docs from './docs';
 
 class App extends Component {
   render() {
@@ -29,9 +30,14 @@ class App extends Component {
               </Navbar.Collapse>
           </Navbar>
           <Team></Team>
+          <hr/>
           <Schedule></Schedule>
+          <hr/>
           <Progress></Progress>
+          <hr/>
           <Raports></Raports>
+          <hr/>
+          <Docs></Docs>
         </>
     );
   }
