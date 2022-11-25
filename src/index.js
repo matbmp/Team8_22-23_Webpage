@@ -14,7 +14,7 @@ import Docs from './docs';
 class App extends Component {
   render() {
     return (
-        <>
+        <div style={{background: `linear-gradient(white, lightgray)`}}>
           <Navbar bg='primary' expand='lg' className="p-3">
               <Navbar.Brand>
                 Programowanie zespołowe - zespół 8
@@ -38,7 +38,7 @@ class App extends Component {
           <Raports></Raports>
           <hr/>
           <Docs></Docs>
-        </>
+        </div>
     );
   }
 }
