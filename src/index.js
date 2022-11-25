@@ -8,6 +8,7 @@ import Team from './team';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 import Schedule from './schedule';
 import Progress from './progress';
+import Raports from './raports';
 
 class App extends Component {
   render() {
@@ -30,6 +31,7 @@ class App extends Component {
           <Team></Team>
           <Schedule></Schedule>
           <Progress></Progress>
+          <Raports></Raports>
         </>
     );
   }
