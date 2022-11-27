@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Team8_22-23_Webpage/static/css/main.810c4a50.css",
-    "main.js": "/Team8_22-23_Webpage/static/js/main.535d9756.js",
+    "main.css": "/Team8_22-23_Webpage/static/css/main.08d3f537.css",
+    "main.js": "/Team8_22-23_Webpage/static/js/main.e1847e75.js",
     "index.html": "/Team8_22-23_Webpage/index.html",
-    "main.810c4a50.css.map": "/Team8_22-23_Webpage/static/css/main.810c4a50.css.map",
-    "main.535d9756.js.map": "/Team8_22-23_Webpage/static/js/main.535d9756.js.map"
+    "main.08d3f537.css.map": "/Team8_22-23_Webpage/static/css/main.08d3f537.css.map",
+    "main.e1847e75.js.map": "/Team8_22-23_Webpage/static/js/main.e1847e75.js.map"
   },
   "entrypoints": [
-    "static/css/main.810c4a50.css",
-    "static/js/main.535d9756.js"
+    "static/css/main.08d3f537.css",
+    "static/js/main.e1847e75.js"
   ]
 }
