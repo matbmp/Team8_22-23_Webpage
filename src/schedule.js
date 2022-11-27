@@ -18,7 +18,7 @@ class Schedule extends React.Component {
               {
                 title: "Koniec prac",
                 date: "X maja 2023",
-                text: "No i fajnie",
+                text: "",
               },
             ]}
           />

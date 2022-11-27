@@ -11,19 +11,17 @@ class Progress extends React.Component {
           <TimeLine
             events={[
               {
-                title: "TEMATYKA PROJEKTU",
+                title: "SPOTKANIE - TEMATYKA PROJEKTU",
                 date: "15 listopada 2022",
-                text: "Omówienie tematyki projektu",
               },
               {
-                title: "TECHNOLOGIA",
+                title: "SPOTKANIE - TECHNOLOGIA",
                 date: "21 listopada 2022",
-                text: "Omówienie technologii oraz architektury aplikacji",
               },
               {
-                title: "SPECYFIKACJA",
+                title: "SPOTKANIE - SPECYFIKACJA",
                 date: "24 listopada 2022",
-                text: "Wyjaśnienie wymagań",
+                text: "Rozmowy dotyczące zadań po stronie zespołu programistów oraz po stronie określającej specyfikację i dostarczającej treści do aplikacji",
               },
             ]}
           />

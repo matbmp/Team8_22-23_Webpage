@@ -63,12 +63,13 @@ class TimeLine extends React.Component {
             </div>
           </Col>
           <Col xs={10} xl={8}>
-            <Card className="m-4">
+            <Card className="m-2">
               <Card.Body>
                 <Card.Title>{obj.title}</Card.Title>
                 <Card.Text>
-                  <p className="text-muted">{obj.date}</p>
-                  <p>{obj.text}</p>
+                  <span className="text-muted">{obj.date}</span>
+                  {obj.text != null ? <br></br> : ""}
+                  {obj.text}
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -77,7 +78,7 @@ class TimeLine extends React.Component {
       );
     });
 
-    return <>{evs}</>;
+    return <div className="pt-3">{evs}</div>;
   }
 }
 
