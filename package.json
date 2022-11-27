@@ -10,7 +10,9 @@
     "react-bootstrap": "^2.6.0",
     "react-dom": "^16.12.0",
     "react-icons": "^4.6.0",
-    "react-scroll": "^1.8.8"
+    "react-scroll": "^1.8.8",
+    "typeface-open-sans": "^1.1.13",
+    "typeface-roboto": "^1.1.13"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -21,7 +23,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "react-scripts": "latest"
+    "react-scripts": "^5.0.1"
   },
   "browserslist": {
     "production": [

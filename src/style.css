@@ -1,5 +1,9 @@
+body, html{
+  font-family: 'Open Sans';
+}
+
 h1, p {
-  font-family: Lato;
+  
 }
 
 .active {
