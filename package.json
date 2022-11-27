@@ -11,10 +11,11 @@
     "react-dom": "^16.12.0",
     "react-icons": "^4.6.0",
     "react-scroll": "^1.8.8",
-    "typeface-open-sans": "^1.1.13",
-    "typeface-roboto": "^1.1.13"
+    "source-map-explorer": "^2.5.3",
+    "webpack-bundle-analyzer": "^4.7.0"
   },
   "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",

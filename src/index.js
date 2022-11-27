@@ -17,7 +17,7 @@ class App extends Component {
   render() {
     return (
       <div style={{ background: `linear-gradient(lightgray, lightgray)` }}>
-        <Navbar bg="primary" expand="lg" className="p-3 sticky-top">
+        <Navbar bg="primary" expand="lg" className="p-3" sticky="top">
           <Navbar.Brand>Programowanie zespołowe - zespół 8</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

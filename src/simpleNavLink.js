@@ -11,7 +11,7 @@ export default function SimpleNavLink(props) {
         spy={true}
         smooth={false}
         durantion="500"
-        offset={-75}
+        offset={-70}
       >
         {props.children}
       </Link>
