@@ -7,12 +7,12 @@ export const harmonogramData = [
   {
     title: 'Grudzień 2022',
     date: '',
-    text: 'Nauka nowych technologii, zaprojektowanie bazy danych, założenie repozytorium, skonfigurowanie serwera, zdefiniowanie i zaimplementowanie podstawowego interfejsu sieciowego, stworzenie pierwszej wersji interfejsu graficznego',
+    text: 'Nauka nowych technologii, zaprojektowanie bazy danych, założenie repozytorium, skonfigurowanie serwera, zdefiniowanie i zaimplementowanie podstawowego interfejsu serwera, stworzenie pierwszej wersji interfejsu użytkownika',
   },
   {
     title: 'Styczeń 2023',
     date: '',
-    text: 'Implementacja wyspecyfikowanych metod nauczania oraz testowania zdobytej wiedzy w aplikacji, implementacja dodawania oraz modyfikacji treści uczących',
+    text: 'Implementacja wyspecyfikowanych metod nauczania oraz testowania zdobytej wiedzy w aplikacji, implementacja dodawania oraz modyfikacji treści uczących, łączenie aplikacji z interfejsem serwera',
   },
   {
     title: 'Luty 2023',
@@ -22,7 +22,7 @@ export const harmonogramData = [
   {
     title: 'Marzec 2023',
     date: '',
-    text: 'Implementacja funkcji społecznościowych, możliwa implementacja aplikacji mobilnej',
+    text: 'Dalsza implementacja funkcjonalności wyspecyfikowanych przez klientów, lub implementacja funkcjonalności dodatkowych - funkcjonalności społeczne/implementacja aplikacji w wersji mobilnej',
   },
   {
     title: 'Kwiecień 2023',
@@ -32,6 +32,6 @@ export const harmonogramData = [
   {
     title: 'Maj 2023',
     date: '',
-    text: 'Zakończenie prac nad aplikacją, przygotowania do prezentacji przed ??? oraz do prezentacji na wydziale',
+    text: 'Zakończenie prac nad aplikacją, przygotowania do prezentacji w [Collegium Medicum?] oraz na wydziale',
   },
 ];

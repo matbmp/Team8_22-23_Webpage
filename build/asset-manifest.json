@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Team8_22-23_Webpage/static/css/main.be192049.css",
-    "main.js": "/Team8_22-23_Webpage/static/js/main.e1847e75.js",
+    "main.css": "/Team8_22-23_Webpage/static/css/main.4ce90861.css",
+    "main.js": "/Team8_22-23_Webpage/static/js/main.69bd4255.js",
+    "static/media/uplash-nurse.jpg": "/Team8_22-23_Webpage/static/media/uplash-nurse.27d39231e002a5d4e344.jpg",
     "index.html": "/Team8_22-23_Webpage/index.html",
-    "main.be192049.css.map": "/Team8_22-23_Webpage/static/css/main.be192049.css.map",
-    "main.e1847e75.js.map": "/Team8_22-23_Webpage/static/js/main.e1847e75.js.map"
+    "main.4ce90861.css.map": "/Team8_22-23_Webpage/static/css/main.4ce90861.css.map",
+    "main.69bd4255.js.map": "/Team8_22-23_Webpage/static/js/main.69bd4255.js.map"
   },
   "entrypoints": [
-    "static/css/main.be192049.css",
-    "static/js/main.e1847e75.js"
+    "static/css/main.4ce90861.css",
+    "static/js/main.69bd4255.js"
   ]
 }
