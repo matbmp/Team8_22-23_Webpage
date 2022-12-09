@@ -67,8 +67,7 @@ class TimeLine extends React.Component {
               <Card.Body>
                 <Card.Title>{obj.title}</Card.Title>
                 <Card.Text>
-                  <span className="text-muted">{obj.date}</span>
-                  {obj.text != null ? <br></br> : ""}
+                  {obj.date != "" ? (<span className="text-muted">{obj.date}<br/></span>) : ""}
                   {obj.text}
                 </Card.Text>
               </Card.Body>

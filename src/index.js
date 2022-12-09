@@ -1,23 +1,24 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
 import { ScrollLink, Element, Link } from "react-scroll";
+import { Container, Navbar, Nav } from "react-bootstrap";
 import "./style.css";
-
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Team from "./team";
-import { Container, Navbar, Nav } from "react-bootstrap";
-import Schedule from "./schedule";
-import Progress from "./progress";
-import Raports from "./raports";
-import Docs from "./docs";
-import SimpleNavLink from "./simpleNavLink";
+
+import Schedule from "./components/schedule";
+import Progress from "./components/progress";
+import Raports from "./components/raports";
+import Docs from "./components/docs";
+import SimpleNavLink from "./components/simpleNavLink";
+import Team from "./components/team";
+import { Jumbotron } from "./components/display";
 
 class App extends Component {
   render() {
     return (
-      <div style={{ background: `linear-gradient(lightgray, lightgray)` }}>
-        <Navbar bg="primary" expand="lg" className="p-3" sticky="top">
+      <div style={{ background: `linear-gradient(lightblue, lightgray)` }}>
+        <Navbar bg="primary" expand="lg" className="p-3" sticky="top" style={{fontSize:"1.2em"}}>
           <Navbar.Brand>Programowanie zespołowe - zespół 8</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -31,8 +32,10 @@ class App extends Component {
           </Navbar.Collapse>
         </Navbar>
 
+        <Jumbotron/>
+
         <Element id="team" name="team">
-          <Team></Team>
+          <Team/>
         </Element>
 
         <Element id="schedule" name="schedule">

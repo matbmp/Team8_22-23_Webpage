@@ -10,9 +10,9 @@ class Team extends React.Component{
           <Row xs={1} md={2} xxl={3} className="row-md-6">
             <Teammate name="Aleksandra Boniewicz" title="Opiekun"/>
             <Teammate name="Emil Grużalski" title="Kierownik"/>
-            <Teammate name="Dawid Stopczyński" title="TBA"/>
-            <Teammate name="Daniel Krzykowski" title="TBA"/>
-            <Teammate name="Jakub Skoczylas" title="TBA"/>
+            <Teammate name="Dawid Stopczyński" title="Członek zespołu"/>
+            <Teammate name="Daniel Krzykowski" title="Członek zespołu"/>
+            <Teammate name="Jakub Skoczylas" title="Członek zespołu"/>
             <Teammate name="Mateusz Biernacki" title="Sekretarz"/>
           </Row>
         </Container>

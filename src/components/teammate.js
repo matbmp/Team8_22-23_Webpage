@@ -12,7 +12,7 @@ class Teammate extends React.Component{
                         <Card.Title>
                             {this.props.name}
                         </Card.Title>
-                        <Card.Text>
+                        <Card.Text >
                         {this.props.title}
                         </Card.Text>
                     </Card.Body>
